@@ -1,0 +1,7 @@
+<app-header></app-header>
+<app-banner *ngIf="router.url=='/'"></app-banner>
+<app-latest-articles *ngIf="router.url=='/'"></app-latest-articles>
+
+<router-outlet></router-outlet> <!--it generate the space for component when it is reload for displaying the component data  -->
+
+<app-footer></app-footer>
